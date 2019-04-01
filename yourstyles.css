@@ -16,9 +16,18 @@ header{
 
 #cart{
     padding: 16px;
-    border: 2px solid blue(0,200,200);
+    border: 2px solid rbg(0,200,200);
     width: 600px;
     margin: 0 auto;
 }
 
 #cart > select,
+#cart > input,
+#cart > output{
+        width:75px,
+        margin-right: 16px;
+}
+output{
+    font-weight: 700;
+    width: 100px;
+}
