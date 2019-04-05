@@ -31,11 +31,11 @@
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil doloremque iste ea sequi praesentium labore, repellat, obcaecati porro animi et rem maiores vel cumque quas aliquid, suscipit illum quasi laborum?</p>
             <a class = "price title" href = "">$29.99</a>
           </div>
-          <form id = "cart" class = "row">
+          <form id = "cart" class = "row" action="checkout.html">
             <select name="options" id="options">
-              <option value="$19.99 - Buy A"></option>
-              <option value="$24.99 - Buy B"></option>
-              <option value="$29.99 - Buy C"></option>
+              <option value="$19.99 - Buy A">A</option>
+              <option value="$24.99 - Buy B">B</option>
+              <option value="$29.99 - Buy C">C</option>
             </select>
             Months: <input id="time" name="time" type="number" value="12" min="0">
             total: <output id="result" name="out" for="option time"></output>
